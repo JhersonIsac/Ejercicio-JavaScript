@@ -1,2 +1,2 @@
 # Ejercicio-JavaScript
-retina de ejercicio de postulacion
+rutina de ejercicio de postulacion
