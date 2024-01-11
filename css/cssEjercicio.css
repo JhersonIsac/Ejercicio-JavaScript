@@ -1,0 +1,22 @@
+body{
+    /*cambia el color del fondo*/
+    background-color:bisque;
+    align-items: center;
+}
+
+.container h2{
+    text-align: center;
+    color: chocolate;
+}
+
+.p{
+    color:cadetblue;                               
+    font-family: 'Times New Roman', Times, serif;    
+    font-size: 15pt;                                 
+}
+
+.g{
+    color: chocolate;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}

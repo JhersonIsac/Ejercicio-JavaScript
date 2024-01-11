@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/cssEjercicio.css">
+    <script src="js/fuction.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Chile limpio</h2>
+<form action="Formulario.html" method="´post" name="dato">
+
+         <div class="p form-group">
+            <label for="rut">Rut: </label>
+            <input type="text" id="rut" name="rut" placeholder="Ingrese su rut" class="form-control"  minlength="9" maxlength="10" required>
+        </div>
+
+        <div class="p form-group">
+            <label for="nom">Nombre: </label>
+            <input type="text" id="nom" name="nom" placeholder="Ingrese su nombre" class="form-control" minlength="3" maxlength="20" required>
+
+        </div>
+
+        <div class="p form-group">
+            <label for="apepa">Apellido Paterno: </label>
+            <input type="text" id="apepa" name="apepa" placeholder="Escriba su apellido" class="form-control" minlength="3" maxlength="20" required>
+        </div>
+
+        <div class="p form-group">
+            <label for="apema">Apellido Materno: </label>
+            <input type="text" id="apema" name="apema" placeholder="Escriba su apellido" class="form-control" minlength="3" maxlength="20" required>
+        </div>
+
+        <div class="p form-group">
+            <label for="edad">Edad: </label>
+            <input type="number" id="edad" name="edad" placeholder="Ingrese su edad" class="form-control" min="18" max="35" required>
+        </div>
+
+        <div class=" form-group">
+        <label class="p">Seleccione su genero: </label><br>
+        <input type="radio" id="genero" name="genero" value="hombre">
+        <label for="hombre">Hombre</label> <br>
+
+        <input type="radio" id="genero" name="genero" value="mujer">
+        <label for="mujer">mujer</label> <br>
+        
+        <input type="radio" id="genero" name="genero" value="otro">
+        <label for="otro">otro</label> <br> <br>
+        </div>
+        
+
+        <div class="p form-group">
+            <label for="celular">celular: </label>
+            <input type="text" id="celular" name="celular" placeholder="Ingrese su numero celular" class="form-control" minlength="9" maxlength="12" required>
+        </div><br>
+
+        <input type="submit" value="Crear Carta" class="btn btn-dark"><br><br>
+
+        <!--carta-->
+        <div class="form-group">
+        <textarea name="comentario" id="carta" cols="80" rows="5" placeholder="Escribir carta"></textarea>
+       </div><br>
+
+
+
+
+
+    </form>  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    
+</body>
+</html>
